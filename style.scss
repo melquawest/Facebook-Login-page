@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@200;300;700&display=swap');
+body{
+    background-color: rgb(244, 244, 244);
+}
+.signup-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.logo-and-intro-container{
+    width: 50%;
+    padding-top: 150px;
+    margin-left: 130px;
+    // background-color: antiquewhite;
+
+    .fb-head{
+        font-family: Inter, sans-serif;
+        font-size: 60px;
+        color: #1877f2;
+        letter-spacing: 0.1px;
+        padding: 0 0 5px;
+        margin: 0;
+    }
+
+    .intro{
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: normal;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 120px;
+    //background-color: beige;
+    
+    .login-form{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: #fff;
+        padding: 15px;
+        margin-right: 100px;
+        border-radius: 10px;
+        box-shadow: 0.5px 0.5px 8px #e7e7e7;
+
+        .form-box{
+            padding: 16px 14px;
+            border-radius: 6px;
+            font-size: 17px;
+            border: 1px solid #e7e7e7;
+            background: none;
+        }
+
+        .form-box:focus{
+            outline: none;
+            border: 1px solid #1877f2;
+            box-shadow: 0.1px 0.1px 1px #1877f2;
+        }
+
+        .login-btn{
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: normal;
+            padding: 12px 14px;
+            color: #fff;
+            margin-top: 5px;
+            cursor: pointer;
+
+        }
+
+        a{
+            text-decoration: none;
+            background: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #1877f2;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+        #fg-pwd{
+            display: flex;
+            justify-content: center;
+            padding: 5px 0;
+            background: none;
+        }
+
+        .line{
+            border: 1px solid #e7e7e7;
+        }
+
+       #create-account{
+            display: flex;
+            justify-content: center;
+
+        .signup-btn{
+            background-color: #42b72a;
+            border: none;
+            color: #fff;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: normal;
+            padding: 12px 14px;
+            border-radius: 6px;
+            width: auto;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+       }
+    }
+
+    .create-a-page{
+        margin-right: 100px;
+        padding: 30px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+
+}
